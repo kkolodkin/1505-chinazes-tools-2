@@ -31,7 +31,6 @@ def play_game():
         guess = input("Введите ваши цифры (4 цифры): ")
         attempts += 1
 
-        # Проверка на правильности ввода
         if len(guess) !=4 or not guess.isdigit() or len(set(guess)) !=4:
             print("неправильный ввод. Пожалуйста, введите 4 разные цифры.")
             continue
@@ -44,5 +43,6 @@ def play_game():
         else:
             print(f"Результат: {bulls} быка(ов), {cows} корова(ы). Попробуйте ещё раз.")
 
-# Запуск игры
 play_game()
+
+#Тестирование прошло успешно
