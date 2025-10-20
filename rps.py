@@ -27,3 +27,4 @@ if errors(user_choice) is None:
 else:
      print(errors(user_choice))
 
+#Тестирование прошло успешно
